@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Argo DIOP - Portfolio</title>
+</head>
+<body>
+  <div id="page-wrapper">
+	  <header>
+		  <div class="profile_name">
+        Mor DIOP
+        <div class="contact_info">
+          a.diop@gmail.com
+        </div>
+        <div class="contact_info">
+          +13456764598
+        </div>
+		  </div>
+	  </header>
+	  <nav id="main-nav">
+		  <div class="home">
+			  <ul>
+				  <li><a href="index.html">Home</a></li>
+				  <li><a href="cv.html">My CV</a></li>
+				  <li><a href="membership.html">Membership</a></li>
+			  </ul>
+		  </div>
+		  <div class="topdiv">
+			  <a class="topmenu" href="#about-me">About Me</a>
+        <!-- Add the links for Skills, Projects and Recommendation here -->
+        <a class="topmenu" href="#skills">Skills</a>
+        <a class="topmenu" href="#projects">Projects</a>
+        <a class="topmenu" href="#recommendations">Recommendations</a>
+			</div>
+	  </nav>
+	  <main>
+		  <!-- About Me -->
+      <section id="about-me" class="container">
+        <div>
+          <img src="images/mypicture.jpg" class="profile_image" />
+        </div>
+        <div>
+          <h1>
+            Hi, I'm DIOP Argo! <img src="html_finalprojimages/waving-hand.png" width="60px" />
+          </h1>
+          <p>
+            Certified Software Engineer and DevOps | ISTQB Level Manager, I have a solid experience in the field of automated testing, infrastructure management and cloud-native application deployment.
+					  Through my DevOps projects, I have developed microservices-based applications with Flask and implemented CI/CD pipelines using modern tools such as Tekton and OpenShift.
+					  I am driven by innovation and process optimization while ensuring the quality of the solutions delivered.
+          </p>
+        </div>
+      </section>
+		  <!-- Skills -->
+      <section id="skills">
+        <h2>Skills</h2>
+				
+        <div class="all_skills">
+          <div class="skill">
+            <img src="images/html5.png" />
+            <h6>HTML</h6>
+            <p>13 years experience</p>
+          </div>
+					
+          <div class="skill">
+            <img src="images/js.jpeg" />
+            <h6>JavaScript</h6>
+            <p>3 years experience</p>
+          </div>
+					
+          <div class="skill">
+            <img src="images/java.png" />
+            <h6>Java</h6>
+            <p>4 years experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="images/react.png" />
+            <h6>React</h6>
+            <p>4 years experience</p>
+          </div>
+
+          <div class="skill">
+            <img src="images/node.png" />
+            <h6>Node</h6>
+            <p>2 years experience</p>
+          </div>
+ 
+          <div class="skill">
+            <img src="images/css3.png" />
+            <h6>CSS3</h6>
+            <p>13 years experience</p>
+          </div>
+        </div>
+      </section>
+		  <!-- Projects -->
+		  <section class="projects" id="projects">
+		    <h2>Projects</h2>  
+			  <div id="projects-container" class="projects-container">
+				  <div class="project-card">
+					  <h3>Implementation of Instana IBM</h3>
+					  <ul>
+						  <li>Implementation of Instana IBM to monitor the key performance and health parameters of an e-commerce application composed of several microservices</li>
+					  </ul>
+				  </div>
+				  <hr>
+				  <div class="project-card">
+					  <h3>Implementing a Windows server 2012 infrastructure</h3>
+					  <ul>
+						  <li>Setting up Hyper-V - Implementing a DNS server - DHCP - Setting up Microsoft exchange 2013 - Setting up pfsense</li>
+					  </ul>
+				  </div>
+				  <hr>
+				  <div class="project-card">
+					  <h3>Build a Product Backlog</h3>
+						<ul>
+						  <li>Build an Agile Plan by Developing User Stories | Kanban Board with ZenHub</li>
+              <li>Build a Flask Application Based on Microservices</li>
+              <li>Use TDD/BDD Driven Development to Create and Run Tests for the Application</li>
+              <li>Add Features Using Continuous Integration</li>
+              <li>Add Security Code Practices for the Microservice: Flask-talisman | Flask-Cors</li>
+              <li>Deploy the Application to the Cloud Using Kubernetes/Openshit</li>
+              <li>Create a CI/CD Pipeline with Tekton</li>
+						</ul>
+					</div>
+			  </div>
+		  </section>
+		  <!-- Recommendations -->
+      <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div class="all_recommendations" id="all_recommendations">
+          <div class="recommendation">
+            Mor is an exceptional problem solver who consistently delivers high-quality solutions.
+            His dedication and attention to detail are impressive.
+            He is a valuable asset to any project.
+          </div>
+          <div class="recommendation">
+            I had the pleasure of collaborating with Mor on a DevOps project.
+            His technical skills and leadership helped us achieve our goals ahead of schedule.
+          </div>
+        </div>
+      </section>
+   		<!-- Recommendation Form -->
+      <section id="contact">
+        <div class="flex_center">
+          <fieldset>
+            <legend class="introduction">Leave a Recommendation</legend>
+              <input type="text" placeholder="Name (Optional)">
+            <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+            <div class="flex_center">
+              <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+            </div>
+          </fieldset>
+        </div>
+      </section>
+  	</main>
+	  <footer>
+	  </footer>
+  </div>
+</body>
+</html>
